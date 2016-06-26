@@ -1,4 +1,4 @@
-FROM elasticsearch:2.1.1
+FROM elasticsearch:2.3.3
 WORKDIR /usr/share/elasticsearch
 
 ADD config/ config
